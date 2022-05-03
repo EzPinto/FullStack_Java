@@ -1,0 +1,425 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-image: url(/img/background.jpg)
+}
+
+.centro {
+    margin: 0  auto;
+    width: 75%;
+    display: flexbox;
+    justify-content: center;
+
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(177, 2, 2);
+    padding: 1em 0;
+}
+
+.logo {
+    border-radius: 10%;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: rgba(231, 20, 20);
+    margin-bottom: 2em;
+    align-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display:inline-flex;
+    align-content:space-around;
+    align-items: center;
+    width: 20%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo {
+    background-color: rgba(153, 6, 6, 0.555);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 1em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: black;
+    font-weight: 700;
+    margin: 0 0 1em;
+}
+
+.decorado {
+    text-decoration:underline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.columnas {
+    overflow: hidden;
+}
+
+/*inicio home*/
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.imghome {
+    padding-left: 5%;
+    /*width: 600px;
+    height: 400px;*/
+    max-height: 10%;
+    max-width: 65%;
+
+}
+
+.bienvenidos, .testimonios{
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+    background-color: rgba(153, 6, 6, 0.555);
+}
+
+.size {
+    font-size: 1.05em;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
+/* fin home*/
+/* Inicio Nosotros */
+
+.historia {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    padding-right: 2em;
+    background-color: rgba(153, 6, 6, 0.555);
+
+}
+
+.profesionales {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 1.3em;
+    padding-left: 2.25em;
+    max-width: 960px;
+    overflow: hidden;
+    background-color: rgba(153, 6, 6, 0.555);
+}
+
+.profesional {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.izquierda {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.derecha {
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: right;
+    justify-content: left;
+}
+
+.foto_perfil {
+    background-color: white;
+    padding: 1.5px;
+    margin: 10px;
+    border-radius: 20%;
+    width: 200px;
+    height: 180px;
+}
+
+.name {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
+}
+
+.trabajo {
+    font-size: 1.1rem;
+    padding-top: 0px;
+    margin-top: 5px;
+
+}
+
+.parrafo_perfil {
+    font-size: 1.1rem;
+    padding: 5px;
+    text-align: justify;
+
+}
+
+/* fin nosotros */
+/* Inicio Info */
+
+.titulo1 {
+    background-color: #999;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-left: 0;
+    width: auto;
+    max-width: 380px;
+    padding: 12px;
+    
+}
+
+.procedimiento, .recomendaciones, .info-importante {
+    padding: 2px 20px;
+    justify-content: left;
+    text-align: left;
+    color: black;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(153, 6, 6, 0.555);
+}
+
+.procedimiento {
+    background-color: rgba(153, 6, 6, 0.555);
+}
+
+.titulo2 {
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+}
+
+.parrafo {
+    font-size: 1.3;
+    font-weight: 600;
+    text-align:justify
+}
+
+.parrafo-recomendacion {
+    color: black;
+}
+
+.parrafo-recomendacion:hover {
+    color: white;
+}
+
+.info-importante {
+    background-color: rgba(153, 6, 6, 0.555);
+    margin: 10px 0 5px 0;
+}
+
+.contenido-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo-info-imp {
+    font-size: 1.3;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0px;
+    background-color: #999;
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5px;
+    border: 1px solid black;
+
+}
+
+.info-vacunas {
+    font-size: 1.3;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0px;
+    background-color: #999;
+    text-align: justify;
+    border: 1px solid black
+    
+}
+
+.vacuna {
+    border-top: 1px solid black;
+    background-color: rgba(77, 73, 73, 0.534); 
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.requisitos {
+    width: 960px;
+    max-width: 100%;
+    display: flex;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+
+/* Fin Info */
+/* Inicio Contacto */
+
+.columna {
+    background-color: grey;
+    height: 400px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.left {
+   border-right: 1px solid gray;
+}
+
+.columna.right p {
+    font-size: 1.1em;
+}
+
+.columna.right ul li {
+    font-size: 1em;
+}
+
+.border-down {
+    border-bottom: 1px solid black;
+}
+
+.formulario label {
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input, .formulario textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input [type="submit"] {
+    background-color: #6da9ed;
+    box-shadow: 0 0 70px rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea {
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones {
+    text-align: center;
+}
+/* Fin Contacto */
+
+
+/* Media queries*/
+
+
+@media (max-width: 430px) {
+    .imghome {
+        padding-left: 10%;
+    }    
+
+    header h1 {
+        font-size: 2em;
+        padding-top: 10px;
+    }
+.bienvenidos, .testimonios {
+    font-size: 1em;
+}}
+
+@media (max-width: 505px) {
+    .profesional {
+        flex-wrap: wrap;
+    }
+    
+}
+
+/* Fin Media Queries*/
