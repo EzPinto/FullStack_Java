@@ -32,32 +32,86 @@
         </ul>
     </nav>
     <main class="holder">
-        <div class="homeimg">
-            <img class="imghome" src="img/imghome.jpg" alt="Imagen inicial">
-        </div>
-        <div class="columnas">
-            <div class="bienvenidos left">
-                <h2 class="decorado">Bienvenidos</h2>
-                <p>Esta es una pagina, para la concientizacion sobre la importancia
-                    de la <strong>Donacion de Sangre</strong>. 
+
+    <!-- Inicio carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide margen" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect>
+                    <text x="50%" y="50%" fill="#444" dy=".3em">Primer img</text></svg>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect>
+                    <text x="50%" y="50%" fill="#444" dy=".3em">Segunda img</text></svg>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect>
+                    <text x="50%" y="50%" fill="#444" dy=".3em">Tercer img</text></svg>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Fin carrusel -->
+
+        <div class="holder">
+            <div class="bienvenidos">
+                <h2 class="decorado">Bienvenidos a <strong>Happy Tails</strong></h2>
+                <p> 
                 </p>
-                <p>Aquí van a poder encontrar información sobre el procedimiento de la extracción, 
-                    los cuidados pre y post donacón, y los medios de contacto para hablar con cualquiera de los
-                    profesionales en el area, para poder aclarar sus dudas y ayudarlos a ayudar.
+                <p>Aquí van a poder encontrar todo lo que necesite para su mascota. <br>
+                    Collares, alimento, juguetes, productos de farmacia, y mucho mas.
+                </p>
+                <p>
+                    Si tiene alguna duda o consulta, puede contactarnos desde nuestra seccion de <a href="contacto.html" style="text-decoration: none; color: black;">Contacto</a>
                 </p>
                                     
             </div>
-            <div class="testimonios right">
-                <h2 class="decorado size">
-                    Tengan en cuenta:
-                </h2>
-                <div class="testimonio">
-                    <p>El acceso a la sangre es un derecho, y la donacion es el unico
-                        metodo de obtencion..
-                    </p>
+        </div>
+
+        <!-- Inicio metodos de pago -->
+
+        
+            <div class="row container margen pagos">
+                <div class="col">
+                     <div class="span10 service-text p-right p-none-xs">
+                    <h6 class="service-title"><strong>ENVIOS SIN CARGO</strong></h6>
+                    <p>En toda CABA y alrededores</p>
+                     </div>                    
+                </div>                                            
+    
+                <div class="col">
+                     <div class="span10 service-text p-right p-none-xs">
+                     <h6 class="service-title"><strong>Descuento Extra </strong></h6>
+                     <p>Pagando tus compras en efectivo</p>
+                     </div>
+                </div>
+                                               
+                
+                <div class="col">
+                    <div class="span10 service-text p-right p-none-xs">
+                     <h6 class="service-title"><strong>Paga con Tarjeta</strong></h6>
+                     <p>También podes pagar en cuotas</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        
+        <!-- Fin metodos de pago-->
 
 
 
@@ -65,6 +119,8 @@
     <footer>
         <p>Diseñado por CaC Team 6 - &copy;2022</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 
